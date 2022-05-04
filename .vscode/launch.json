@@ -11,7 +11,7 @@
             "port": 9003,
             "log":true,
             "pathMappings": {
-                "/var/www": "/home/kox/dev/web/TEST/chat_yii2/src/",
+                "/var/www": "/Users/kox/dev/web/TEST/yii2_chat/src",
 
               }
         },
