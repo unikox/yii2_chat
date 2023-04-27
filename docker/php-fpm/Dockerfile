@@ -1,6 +1,6 @@
 FROM php:8.0-fpm-alpine
 
-RUN apk --update --no-cache add git libxml2-dev libzip-dev libpng-dev libjpeg-turbo-dev freetype-dev shadow &&\
+RUN apk --update --no-cache add linux-headers git libxml2-dev libzip-dev libpng-dev libjpeg-turbo-dev freetype-dev shadow &&\
 docker-php-ext-install pdo_mysql &&\
 docker-php-ext-install soap &&\
 docker-php-ext-install zip &&\
